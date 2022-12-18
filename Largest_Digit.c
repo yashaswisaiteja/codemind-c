@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int num,rem,lar=0;
-    scanf("%d",&num);
-    while(num>0)
+    int n,rem,lar;
     {
-        rem=num%10;
-        if(lar<rem)
+        scanf("%d",&n);
+        while(n>0)
         {
-            lar=rem;
-    
+            rem=n%10;
+            if(lar<rem)
+            {
+                lar=rem;
+            }
+            n=n/10;
         }
-        num=num/10;
+        printf("%d",lar);
     }
-    printf("%d
-",lar);
 }
