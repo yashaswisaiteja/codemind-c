@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
-void main(){
+void main()
+{
     int p,r,t,si;
     scanf("%d%d%d",&p,&r,&t);
     si=(p*r*t)/100;
